@@ -1,4 +1,78 @@
 body {
     font-family: 'Poppins',
         sans-serif;
+    margin: 0 auto;
+}
+
+/* Header starts */
+.header-start {
+    margin-left: 156px;
+    margin-right: 124px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+}
+
+header ul li {
+    margin-right: 36px;
+}
+
+header ul li a {
+    padding: 0 10px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+.login-icon button {
+    padding: 10px 24px;
+    background-color: #e02c6d;
+    border: none;
+}
+
+.login-icon a {
+    color: white;
+}
+
+.login-icon i {
+    padding: 0 8px;
+}
+
+/* Header Ends */
+/* Top Banner Start */
+.top-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-text h1 {
+    margin-left: 50px;
+    margin-right: 200px;
+    margin-top: 121px;
+    margin-bottom: 27px;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 80px;
+}
+
+.banner-img img {
+    width: 556px;
+    height: 438px;
+
+}
+
+.banner-text button {
+    margin-left: 50px;
+    margin-right: 200px;
+    margin-bottom: 169px;
 }
