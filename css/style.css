@@ -147,3 +147,26 @@ header ul li a {
 }
 
 /* player blog end */
+/* partner info start */
+.partner-info {
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.partner-text h1 {
+    margin-bottom: 40px;
+}
+
+.grid-photo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.partner-logo img {
+    width: 200px;
+    height: 80px;
+
+}
