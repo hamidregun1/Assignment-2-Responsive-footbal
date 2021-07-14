@@ -170,3 +170,56 @@ header ul li a {
     height: 80px;
 
 }
+
+/* partner info end */
+/* copa highlights start */
+.copa-allinfo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 66px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 100px;
+    margin-bottom: 158px;
+}
+
+.copa-text h1 {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+}
+
+.copa-text p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.copa-text button {
+    padding: 10px 24px;
+    background-color: #e02c6d;
+    border: none;
+}
+
+.copa-text button a {
+    color: white;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+.copa-text i {
+    padding: 0 8px;
+
+}
+
+.show-image img {
+    width: 500px;
+    height: 400px;
+}
+
+/* copa highlights ends */
+/* f logo start */
