@@ -223,3 +223,47 @@ header ul li a {
 
 /* copa highlights ends */
 /* f logo start */
+.f-sec {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.f-logo img {
+    width: 300px;
+    height: 150px;
+}
+
+/* f logo ends */
+/* social icon start */
+.s-font ul {
+    display: flex;
+    justify-content: center;
+}
+
+.s-font ul li {
+    padding-right: 15px;
+    list-style: none;
+    font-size: 30px;
+}
+
+.s-font ul li a {
+    background-color: rgb(160, 151, 151);
+    text-decoration: none;
+    border-radius: 30%;
+}
+
+/* social icon ends */
+/* footer start */
+footer {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: right;
+}
+
+footer p {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+/* footer ends */
