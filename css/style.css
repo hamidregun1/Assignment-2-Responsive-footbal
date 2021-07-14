@@ -267,3 +267,24 @@ footer p {
 }
 
 /* footer ends */
+/* media quaries */
+/* mobile device */
+@media oly screen and (max-width:688px) {
+    .header-start {
+        width: 100%;
+        display: none;
+    }
+
+    .top-banner {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .player-blog {
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+    }
+
+    .partner-info {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
