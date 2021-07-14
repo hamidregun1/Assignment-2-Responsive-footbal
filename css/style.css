@@ -6,14 +6,21 @@ body {
 
 /* Header starts */
 .header-start {
-    margin-left: 156px;
-    margin-right: 124px;
+    background-color: rgb(45, 37, 160);
+
+}
+
+header {
+    padding-top: 42px;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-left: 156px;
+    margin-right: 124px;
+
 }
 
 header ul {
@@ -26,6 +33,7 @@ header ul li {
 }
 
 header ul li a {
+    color: white;
     padding: 0 10px;
     font-size: 16px;
     font-weight: 500;
@@ -41,10 +49,16 @@ header ul li a {
 
 .login-icon a {
     color: white;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
 }
 
 .login-icon i {
     padding: 0 8px;
+
 }
 
 /* Header Ends */
@@ -53,11 +67,14 @@ header ul li a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-left: 156px;
+    margin-right: 141px;
 }
 
 .banner-text h1 {
+    color: white;
     margin-left: 50px;
-    margin-right: 200px;
+    margin-right: 102px;
     margin-top: 121px;
     margin-bottom: 27px;
     font-weight: bold;
@@ -68,6 +85,7 @@ header ul li a {
 .banner-img img {
     width: 556px;
     height: 438px;
+    margin-bottom: 86px;
 
 }
 
@@ -75,4 +93,23 @@ header ul li a {
     margin-left: 50px;
     margin-right: 200px;
     margin-bottom: 169px;
+    padding: 10px 24px;
+    background-color: #e02c6d;
+    border: none;
 }
+
+.banner-text button a {
+    color: white;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+.banner-text i {
+    padding: 0 8px;
+
+}
+
+/* banner end */
